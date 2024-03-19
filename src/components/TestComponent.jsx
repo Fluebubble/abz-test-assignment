@@ -1,4 +1,4 @@
-import styles from './TestComponent.module.css';
+import styles from './TestComponent.module.scss';
 
 export const TestComponent = () => {
   return(
