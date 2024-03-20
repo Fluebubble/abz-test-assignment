@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/abz-test-assignment/static/css/main.00dfe044.css",
+    "main.js": "/abz-test-assignment/static/js/main.dd9606ac.js",
+    "index.html": "/abz-test-assignment/index.html",
+    "main.00dfe044.css.map": "/abz-test-assignment/static/css/main.00dfe044.css.map",
+    "main.dd9606ac.js.map": "/abz-test-assignment/static/js/main.dd9606ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00dfe044.css",
+    "static/js/main.dd9606ac.js"
+  ]
+}
