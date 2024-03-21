@@ -1,2 +1,10 @@
-// @import '../node_modules/modern-normalize/modern-normalize.css';
 @import './styles/';
+
+@font-face {
+  font-family: 'Nunito';
+  src: url(../public/fonts/Nunito-Regular.ttf);
+}
+
+body {
+  font-family: 'Nunito';
+}
