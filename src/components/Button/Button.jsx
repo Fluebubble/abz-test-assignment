@@ -1,3 +1,4 @@
+import { BG } from '../BG/BG';
 import styles from './Button.module.scss';
 
 export const Button = ({
@@ -11,7 +12,7 @@ export const Button = ({
       className={styles.button}
       onClick={handleClick}
     >
-      {children}
+      <BG type="yellow">{children}</BG>
     </button>
   );
 };
