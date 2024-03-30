@@ -13,7 +13,6 @@
     "modern-normalize": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-loader-spinner": "^6.1.6",
     "react-scripts": "5.0.1",
     "sass": "^1.72.0",
     "stylelint-scss": "^6.2.1",
