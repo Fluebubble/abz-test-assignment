@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d0496cc.css",
-    "main.js": "/static/js/main.e2c7cd7b.js",
-    "static/media/Nunito-Regular.ttf": "/static/media/Nunito-Regular.9d7a6e03c6e3ed49c7ac.ttf",
-    "index.html": "/index.html",
-    "main.2d0496cc.css.map": "/static/css/main.2d0496cc.css.map",
-    "main.e2c7cd7b.js.map": "/static/js/main.e2c7cd7b.js.map"
+    "main.css": "/abz-test-assignment/static/css/main.8508b8b0.css",
+    "main.js": "/abz-test-assignment/static/js/main.f7ce56a0.js",
+    "static/media/hero-cover.jpeg": "/abz-test-assignment/static/media/hero-cover.be7665f876bbd9138501.jpeg",
+    "static/media/Nunito-Regular.ttf": "/abz-test-assignment/static/media/Nunito-Regular.9d7a6e03c6e3ed49c7ac.ttf",
+    "static/media/spinner.svg": "/abz-test-assignment/static/media/spinner.0aaf07f39acaa32ce036.svg",
+    "index.html": "/abz-test-assignment/index.html",
+    "static/media/radio-button-checked.svg": "/abz-test-assignment/static/media/radio-button-checked.116a20546aded640b219.svg",
+    "static/media/radio-button-unchecked.svg": "/abz-test-assignment/static/media/radio-button-unchecked.62208ceb1111ba17b594.svg",
+    "main.8508b8b0.css.map": "/abz-test-assignment/static/css/main.8508b8b0.css.map",
+    "main.f7ce56a0.js.map": "/abz-test-assignment/static/js/main.f7ce56a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d0496cc.css",
-    "static/js/main.e2c7cd7b.js"
+    "static/css/main.8508b8b0.css",
+    "static/js/main.f7ce56a0.js"
   ]
 }
