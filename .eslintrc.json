@@ -23,6 +23,16 @@
       {
         "endOfLine": "auto"
       }
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "ImportDeclaration": "never",
+        "ExportDeclaration": {
+          "multiline": true,
+          "minProperties": 2
+        }
+      }
     ]
   }
 }
