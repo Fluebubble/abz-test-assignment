@@ -18,7 +18,8 @@ Use a better box model (opinionated).
 
 html {
   /* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
   line-height: 1.15; /* 1. Correct the line height in all browsers. */
   -webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
   -moz-tab-size: 4; /* 3. Use a more readable tab size (opinionated). */
@@ -73,7 +74,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; /* 1 */
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -147,9 +149,9 @@ select {
 Correct the inability to style clickable types in iOS and Safari.
 */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -202,7 +204,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -243,7 +245,7 @@ summary {
   src: url("../../public/fonts/Nunito-Regular.ttf") format("truetype");
 }
 html {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   scroll-behavior: smooth;
 }
 
@@ -346,7 +348,7 @@ fieldset {
   position: absolute;
   top: 14px;
   left: 16px;
-  color: #7E7E7E;
+  color: #7e7e7e;
   pointer-events: none;
   transition: top 100ms cubic-bezier(0.17, 0.67, 0.14, 0.99);
 }
@@ -362,7 +364,7 @@ fieldset {
   left: 12px;
   font-size: 14px;
   padding-inline: 4px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .textFieldLabelOnTop {
@@ -370,23 +372,23 @@ fieldset {
   left: 12px;
   font-size: 14px;
   padding-inline: 4px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 .textFieldLabelOnTopError {
-  color: #CB3D40;
+  color: #cb3d40;
 }
 
 .textFieldLabelError {
-  color: #CB3D40;
+  color: #cb3d40;
 }
 
 .textField {
   padding: 0 16px;
   height: 54px;
   width: 100%;
-  border: 1px solid #D0CFCF;
+  border: 1px solid #d0cfcf;
   border-radius: 4px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 .textField:focus {
   outline: none;
@@ -394,12 +396,12 @@ fieldset {
   border-color: rgba(0, 0, 0, 0.87);
 }
 .textFieldError {
-  border-color: #CB3D40;
+  border-color: #cb3d40;
   border-width: 2px;
 }
 .textFieldError:focus {
-  border-color: #CB3D40;
-  outline-color: #CB3D40;
+  border-color: #cb3d40;
+  outline-color: #cb3d40;
 }
 
 .tip {
@@ -408,10 +410,10 @@ fieldset {
   left: 16px;
   font-size: 12px;
   line-height: 14px;
-  color: #7E7E7E;
+  color: #7e7e7e;
 }
 .tipError {
-  color: #CB3D40;
+  color: #cb3d40;
 }
 @media (min-width: 768px) {
   .tip {
@@ -458,7 +460,7 @@ fieldset {
   transition: border-color 300ms linear;
 }
 .inputFileButtonError {
-  border: 2px solid #CB3D40;
+  border: 2px solid #cb3d40;
 }
 
 .inputFileInfo {
@@ -468,13 +470,13 @@ fieldset {
   height: 54px;
   flex-grow: 1;
   overflow: hidden;
-  border: 1px solid #D0CFCF;
+  border: 1px solid #d0cfcf;
   border-left: none;
   border-radius: 0 4px 4px 0;
   transition: border-color 300ms linear;
 }
 .inputFileInfoError {
-  border: 2px solid #CB3D40;
+  border: 2px solid #cb3d40;
   border-left-width: 0;
 }
 
@@ -489,5 +491,5 @@ fieldset {
 }
 
 .fileNamePlaceholder {
-  color: #7E7E7E;
-}/*# sourceMappingURL=SignUpForm.module.css.map */
+  color: #7e7e7e;
+} /*# sourceMappingURL=SignUpForm.module.css.map */
