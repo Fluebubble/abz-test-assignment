@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abz-test-assignment/static/css/main.0c80328a.css",
-    "main.js": "/abz-test-assignment/static/js/main.2cdd46c4.js",
+    "main.css": "/abz-test-assignment/static/css/main.d8fa0783.css",
+    "main.js": "/abz-test-assignment/static/js/main.6393d6a2.js",
     "static/media/hero-cover-desktop.jpg": "/abz-test-assignment/static/media/hero-cover-desktop.c2202faf1f6064c8a9e3.jpg",
     "static/media/Nunito-Regular.ttf": "/abz-test-assignment/static/media/Nunito-Regular.9d7a6e03c6e3ed49c7ac.ttf",
     "static/media/hero-cover-tablet.jpg": "/abz-test-assignment/static/media/hero-cover-tablet.dbac97a9ecd09bea4e58.jpg",
@@ -11,11 +11,11 @@
     "index.html": "/abz-test-assignment/index.html",
     "static/media/radio-button-checked.svg": "/abz-test-assignment/static/media/radio-button-checked.116a20546aded640b219.svg",
     "static/media/radio-button-unchecked.svg": "/abz-test-assignment/static/media/radio-button-unchecked.62208ceb1111ba17b594.svg",
-    "main.0c80328a.css.map": "/abz-test-assignment/static/css/main.0c80328a.css.map",
-    "main.2cdd46c4.js.map": "/abz-test-assignment/static/js/main.2cdd46c4.js.map"
+    "main.d8fa0783.css.map": "/abz-test-assignment/static/css/main.d8fa0783.css.map",
+    "main.6393d6a2.js.map": "/abz-test-assignment/static/js/main.6393d6a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c80328a.css",
-    "static/js/main.2cdd46c4.js"
+    "static/css/main.d8fa0783.css",
+    "static/js/main.6393d6a2.js"
   ]
 }
