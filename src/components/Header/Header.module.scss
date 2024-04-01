@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 60px;
+  padding-block: 13px;
+}
+
+.logo {
+  width: 104px;
+  height: 26px;
+}
+
+.logoLink {
+  display: flex;
+}

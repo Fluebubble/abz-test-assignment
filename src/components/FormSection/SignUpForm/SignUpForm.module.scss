@@ -1,0 +1,116 @@
+@import '../../../styles/variables/colors';
+
+$input-field-height: 54px;
+$input-border-radius: 4px;
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+.textFieldsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  margin-bottom: 43px;
+}
+
+.textFieldLabelError {
+  color: $error-color;
+}
+
+.radioFieldset {
+  margin-bottom: 47px;
+}
+
+.radioLegend {
+  margin-bottom: 10px;
+}
+
+.radioList {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.inputFileLabel {
+  display: flex;
+  align-items: center;
+}
+
+.inputFileButton {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: $input-field-height;
+  width: 83px;
+  min-width: 83px;
+
+  border: 1px solid $black-87;
+  border-radius: $input-border-radius 0 0 $input-border-radius;
+
+  transition: border-color 300ms linear;
+
+  &Error {
+    border: 2px solid $error-color;
+  }
+}
+
+.inputFileInfo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+  height: $input-field-height;
+  padding: 0 16px;
+
+  overflow: hidden;
+  border: 1px solid #D0CFCF;
+  border-left: none;
+  border-radius: 0 $input-border-radius $input-border-radius 0;
+  
+  transition: border-color 300ms linear;
+
+  &Error {
+    border: 2px solid $error-color;
+    border-left-width: 0;
+  }
+}
+
+.submitButtonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.fileName {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.fileNamePlaceholder {
+  color: $label-color;
+}
+
+.successfulImage {
+  width: 328px;
+  height: 290px;
+}
+
+.successfulImageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.inputWrapper {
+  position: relative;
+
+  &BottomMargin {
+    margin-bottom: 50px;
+  }
+}
