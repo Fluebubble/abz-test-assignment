@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# ABZ test-assignment
+[DEMO LINK](https://fluebubble.github.io/abz-test-assignment/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Задачи и решения
+В результате разработки проект был разбит на 79 задач и на его реализацию суммарно было потрачено 25 часов.
 
-## Available Scripts
+[Здесь вы можете увидеть структуру плана проекта (список задач)](https://trotsanatoliy.notion.site/ABZ-3b2caf2e314e4807866128bdd0361ed5)
 
-In the project directory, you can run:
+### 1. React-компоненты
+Для упрощения разработки проект был разбит на **16** React-компонентов, **7** из которых переиспользовались два или больше раз.
 
-### `npm start`
+Компонент **SignUpForm.jsx** оказался самым большим по количеству кода и внутренней логики, его можно было бы разбить еще на большее количество компонентов, но я подумал, что много времени потратил на выполнение задания и сдаю его таким, каким успел сделать на данный момент.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Также при разработке был создан контекст **UsersContext** для упрощения работы со списком пользователей. Он использовался в компонентах **SignUpForm.jsx** и **UsersList.jsx** во избежание props drilling и получения ссылки для работы с пагинацией.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Был создан кастомный хук **useLoadUsers** который также использовался в **UsersContext** и **SignUpForm.jsx** и включал в себя логику работы с API.
 
-### `npm test`
+### 2. Стили
+Использовался препроцессор SASS и был задействован следующий его функционал:
+- **mixins**
+- **variables**
+- **nested styles**
+- **styles reexport**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Для удобства работы была создана понятная и распределенная структура стилей. Структура стилей включает в себя:
+- миксины с разметкой и типографией
+- переменные с цветами, марджинами/паддингами/ширинами экранов,
+- глобальные стили
+- сброшенные стили
+- утилиты
 
-### `npm run build`
+Все стили были реализованы модулями (.module.scss) с использованием миксинов, переменных и понятно именованы, что позволяет осуществлять легкую поддержку и масштабируемость кода.
+Также в каждом файле стилей была выдержана следующая структура последовательности свойств:
+- /* Позиционирование */
+- /* Блочная модель */
+- /* Типографика */
+- /* Оформление */
+- /* Анимация */
+Что позволяет с легкостью ориентироваться в коде.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Дополнительно
+Также были созданы файлы с константами и функциями-хелперами.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Оптимизация 
+**Google PageSpeed** показал следующие результаты (скриншоты):\
+[MOBILE](https://prnt.sc/kij4uzIm7MLF)\
+[DESKTOP](https://prnt.sc/8vysPwtENKe2)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Для оптимизации были обрезаны изображения из шапки приложения и сжаты при помощи сервиса **Squoosh**
 
-### `npm run eject`
+Также я думал использовать React lazy, но руки еще не дошли (но могу доделать) :)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Технологии и библиотеки
+- React
+- SASS
+- Webpack. Create-react-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Также для упращения разработки в проект были добавлены и настроены:
+- eslint
+- stylelint
+- prettier
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Использваные библиотеки:
+- formik - упрощает работу с формами и стейтом
+- yup - использовался вместе с formik для валидации данных
+- axios - упрощает работу с API
+- classnames - позволяет применять комбинировать несколько классов по условию
+- react-tooltip - тултип по ховеру мышки по элементу
+- modern-normalize - нормализация стилей и схожесть их между браузерами
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Проблемы и сложности
 
-## Learn More
+Не могу сказать что были какие-то сложности или проблемы, но пришлось потратить время на знакомство с такими библиотеками как **Formik** и **Yup**, так как пользовался ими впервые. Также впервые устанавливал настраивал **stylelint**, **eslint**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Мои ссылки
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[GITHUB](https://github.com/Fluebubble)\
+[LINKEDIN](https://www.linkedin.com/in/anatoliy-trots/)\
+[CV](https://drive.google.com/file/d/12DKnY0--cCAE7tZbu5XGaBH6pPgToiN5/view)
